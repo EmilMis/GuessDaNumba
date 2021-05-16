@@ -75,7 +75,7 @@ namespace GuessDaNumba
     public static void Main(string[] args)
     {
       Random rand = new Random();
-      scrollText("Heya,\nI have a number and you gotta guess it,\nSounds Fair? Because it is not\nGood luck\n\nP.S.\nYou have limited amount of tries", 50);
+      scrollText("heya,\nI have a number and you gotta guess it,\nSounds Fair? Because it is not\nGood luck\n\nP.S.\nYou have limited amount of tries", 50);
       Console.WriteLine();
       Game(7, rand.Next(21));
     }
